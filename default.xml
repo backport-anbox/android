@@ -93,7 +93,6 @@
     <project path="external/dng_sdk" name="external_dng_sdk"/>
     <project path="external/dnsmasq" name="external_dnsmasq"/>
     <project path="external/doclava" name="external_doclava"/>
-    <project path="external/donuts" name="external_donuts"/>
     <project path="external/drm_gralloc" name="external_drm_gralloc"/>
     <project path="external/drm_hwcomposer" name="external_drm_hwcomposer"/>
     <project path="external/droiddriver" name="external_droiddriver"/>
@@ -202,7 +201,6 @@
     <project path="external/libxml2" name="external_libxml2"/>
     <project path="external/libyuv" name="external_libyuv"/>
     <project path="external/littlemock" name="external_littlemock"/>
-    <project path="external/lld" name="external_lld"/>
     <project path="external/llvm" name="external_llvm"/>
     <project path="external/ltrace" name="external_ltrace"/>
     <project path="external/lz4" name="external_lz4"/>
@@ -309,8 +307,6 @@
     <project path="frameworks/opt/chips" name="frameworks_opt_chips"/>
     <project path="frameworks/opt/colorpicker" name="frameworks_opt_colorpicker"/>
     <project path="frameworks/opt/datetimepicker" name="frameworks_opt_datetimepicker"/>
-    <project path="frameworks/opt/emoji" name="frameworks_opt_emoji"/>
-    <project path="frameworks/opt/inputconnectioncommon" name="frameworks_opt_inputconnectioncommon"/>
     <project path="frameworks/opt/inputmethodcommon" name="frameworks_opt_inputmethodcommon"/>
     <project path="frameworks/opt/net/ethernet" name="frameworks_opt_net_ethernet"/>
     <project path="frameworks/opt/net/ims" name="frameworks_opt_net_ims"/>
@@ -334,7 +330,6 @@
     <project path="hardware/google/apf" name="hardware_google_apf"/>
     <project path="hardware/intel/audio_media" name="hardware_intel_audio_media"/>
     <project path="hardware/intel/bootstub" name="hardware_intel_bootstub"/>
-    <project path="hardware/intel/common/bd_prov" name="hardware_intel_common_bd_prov"/>
     <project path="hardware/intel/common/libmix" name="hardware_intel_common_libmix"/>
     <project path="hardware/intel/common/libstagefrighthw" name="hardware_intel_common_libstagefrighthw"/>
     <project path="hardware/intel/common/libva" name="hardware_intel_common_libva"/>
@@ -345,7 +340,6 @@
     <project path="hardware/intel/img/hwcomposer" name="hardware_intel_img_hwcomposer"/>
     <project path="hardware/intel/img/psb_headers" name="hardware_intel_img_psb_headers"/>
     <project path="hardware/intel/img/psb_video" name="hardware_intel_img_psb_video"/>
-    <project path="hardware/intel/sensors" name="hardware_intel_sensors"/>
     <project path="hardware/invensense" name="hardware_invensense"/>
     <project path="hardware/marvell/bt" name="hardware_marvell_bt"/>
     <project path="hardware/ril" name="hardware_ril"/>
@@ -383,7 +377,6 @@
     <project path="packages/apps/Nfc" name="packages_apps_Nfc"/>
     <project path="packages/apps/OneTimeInitializer" name="packages_apps_OneTimeInitializer"/>
     <project path="packages/apps/PackageInstaller" name="packages_apps_PackageInstaller"/>
-    <project path="packages/apps/Phone" name="packages_apps_Phone"/>
     <project path="packages/apps/PhoneCommon" name="packages_apps_PhoneCommon"/>
     <project path="packages/apps/Protips" name="packages_apps_Protips"/>
     <project path="packages/apps/Provision" name="packages_apps_Provision"/>
@@ -471,7 +464,6 @@
     <project path="system/keymaster" name="system_keymaster"/>
     <project path="system/media" name="system_media"/>
     <project path="system/nativepower" name="system_nativepower"/>
-    <project path="system/nvram" name="system_nvram"/>
     <project path="system/security" name="system_security"/>
     <project path="system/sepolicy" name="system_sepolicy"/>
     <project path="system/tools/aidl" name="system_tools_aidl"/>
