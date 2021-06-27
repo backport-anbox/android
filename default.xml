@@ -449,7 +449,6 @@
     <project path="prebuilts/ndk" name="prebuilts_ndk"/>
     <project path="prebuilts/ninja/linux-x86" name="prebuilts_ninja_linux-x86"/>
     <project path="prebuilts/python/linux-x86/2.7.5" name="prebuilts_python_linux-x86_2.7.5"/>
-    <project path="prebuilts/qemu-kernel" name="prebuilts_qemu-kernel"/>
     <project path="prebuilts/sdk" name="prebuilts_sdk"/>
     <project path="prebuilts/tools" name="prebuilts_tools"/>
     <project path="sdk" name="sdk"/>
@@ -473,6 +472,5 @@
     <project path="system/webservd" name="system_webservd"/>
     <project path="toolchain/binutils" name="toolchain_binutils"/>
     <project path="tools/external/fat32lib" name="tools_external_fat32lib"/>
-    <project path="tools/external/gradle" name="tools_external_gradle"/>
     <project path="tools/test/connectivity" name="tools_test_connectivity"/>
 </manifest>
