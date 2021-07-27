@@ -10,6 +10,16 @@
              remote="aosp"
              sync-j="4"/>
 
+    <!-- ubuntu touch -->
+    <project path="system/netd" name="platform_system_netd" remote="anbox" remote="xenial"/>
+    <project path="vendor/anbox" name="anbox" remote="anbox" revision="xenial"/>
+
+    <!-- anbox x86 -->
+    <!--
+    <project path="system/netd" name="platform_system_netd" remote="anbox"/>
+    <project path="vendor/anbox" name="anbox" remote="anbox" revision="anbox-master"/>
+    -->
+
     <project path="art" name="platform_art" remote="anbox"/>
     <project path="bionic" name="platform_bionic" remote="anbox"/>
     <project path="frameworks/av" name="platform_frameworks_av" remote="anbox"/>
@@ -20,8 +30,6 @@
     <project path="system/core" name="platform_system_core" remote="anbox"/>
     <project path="system/vold" name="platform_system_vold" remote="anbox"/>
 
-    <project path="system/netd" name="platform_system_netd" remote="anbox"/>
-    <project path="vendor/anbox" name="anbox" remote="anbox" revision="xenial"/>
 
     <project path="build" name="build">
         <copyfile src="core/root.mk" dest="Makefile"/>
