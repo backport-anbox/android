@@ -11,14 +11,16 @@
              sync-j="4"/>
 
     <!-- ubuntu touch -->
-    <project path="system/netd" name="platform_system_netd" remote="anbox" remote="xenial"/>
+    <!--
+    <project path="system/netd" name="platform_system_netd" remote="anbox" revision="xenial"/>
     <project path="vendor/anbox" name="anbox" remote="anbox" revision="xenial"/>
+    -->
 
     <!-- anbox x86 -->
-    <!--
+
     <project path="system/netd" name="platform_system_netd" remote="anbox"/>
-    <project path="vendor/anbox" name="anbox" remote="anbox" revision="anbox-master"/>
-    -->
+    <project path="vendor/anbox" name="anbox" remote="anbox" revision="master"/>
+
 
     <project path="art" name="platform_art" remote="anbox"/>
     <project path="bionic" name="platform_bionic" remote="anbox"/>
